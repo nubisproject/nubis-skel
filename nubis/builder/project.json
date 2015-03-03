@@ -1,0 +1,13 @@
+{
+  "variables": {
+    "automatic_version_bump": "1",
+    "automatic_version_verify": "1",
+    "builders": [
+      "amazon-ebs-ubuntu"
+    ],
+    "project_description": "Blank nubis module for testing nubis-builder",
+    "project_name": "nubis-blank",
+    "project_version": "0.44",
+    "source_ami_project_name": "nubis-base"
+  }
+}
