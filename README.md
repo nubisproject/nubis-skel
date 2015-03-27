@@ -1,7 +1,7 @@
 # nubis-blank
 
-This project is probably useless to you, unless you're developing nubis-builder and need
-a project with minimal provisioners to quickly test the build process.
+Blank project that can be used as a quick skeleton for new projects, or for quick iteriations
+of nubis-builder to be used during testing and feature development.
 
 ## Quick start
 0. `git clone git@github.com:nubisproject/nubis-blank.git`
