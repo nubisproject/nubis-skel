@@ -7,7 +7,7 @@ Before you deploy with Cloudformation you need to set up your parameters.json fi
 [
   {
     "ParameterKey": "ServiceName",
-    "ParameterValue": "blank"
+    "ParameterValue": "skel"
   }, 
   {
     "ParameterKey": "Environment",
@@ -46,24 +46,30 @@ You will collect this as output from nubis-builder. Once the build is complete n
 ## Commands to work with CloudFormation
 NOTE: All examples run from the top level project directory.
 
-In these examples the stack is called *nubis-blank*. You will need to choose a unique name for your stack as their can only be one *nubis-blank* stack at a time.
+In these examples the stack is called *nubis-skel*. You will need to choose a unique name for your stack as their can only be one *nubis-skel* stack at a time.
 
 ### Create
 To create a new stack:
 ```bash
-aws cloudformation create-stack --template-body file://nubis/cloudformation/main.json --parameters file://nubis/cloudformation/parameters.json --stack-name nubis-blank
+aws cloudformation create-stack --template-body file://nubis/cloudformation/main.json --parameters file://nubis/cloudformation/parameters.json --stack-name nubis-skel
 ```
 
 ### Update
 To update and existing stack:
 ```bash
-aws cloudformation update-stack --template-body file://nubis/cloudformation/main.json --parameters file://nubis/cloudformation/parameters.json --stack-name nubis-blank 
+aws cloudformation update-stack --template-body file://nubis/cloudformation/main.json --parameters file://nubis/cloudformation/parameters.json --stack-name nubis-skel 
+```
+
+### Login
+If you have only one EC2 instance and your ssh keys are on the jumphost, you can login by:
+```bash
+ssh -A -t ec2-user@jumphost.sandbox.nubis.allizom.org "ssh -A -t ubuntu@$(nubis-consul --stack-name nubis-skel --settings nubis/cloudformation/parameters.json get-ec2-instance-ip)"
 ```
 
 ### Delete
 To delete the stack:
 ```bash
-aws cloudformation delete-stack --stack-name nubis-blank
+aws cloudformation delete-stack --stack-name nubis-skel
 ```
 
 ## Nested Stacks
