@@ -63,7 +63,7 @@ aws cloudformation update-stack --template-body file://nubis/cloudformation/main
 ### Login
 If you have only one EC2 instance and your ssh keys are on the jumphost, you can login by:
 ```bash
-ssh -A -t ec2-user@jumphost.sandbox.nubis.allizom.org "ssh -A -t ubuntu@$(nubis-consul --stack-name nubis-skel --settings nubis/cloudformation/parameters.json get-ec2-instance-ip)"
+ssh -A -t ec2-user@jumphost.sandbox.us-west-2.nubis.allizom.org "ssh -A -t ubuntu@$(nubis-consul --stack-name nubis-skel --settings nubis/cloudformation/parameters.json get-ec2-instance-ip)"
 ```
 
 ### Delete
