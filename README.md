@@ -1,11 +1,37 @@
 ﻿# nubis-skel
+This is a skeleton repository that can be used for testing or as a quick way for you to incorporate nubis into your own project.
 
-Blank project that can be used as a quick skeleton for new projects, or for quick iterations of nubis-builder to be used during testing and feature development.
+## Prerequisites
+If you are new to the Nubisproject you will need to set up some [prerequisites](https://github.com/Nubisproject/nubis-docs/blob/master/PREREQUISITES.md). 
 
-## Quick start
-0. Set up the [Prerequisites](https://github.com/Nubisproject/nubis-docs/blob/master/PREREQUISITES.md)
-0. `git clone git@github.com:nubisproject/nubis-skel.git`
-0. `nubis-builder build`
-0. Edit the nubis/cloudformation/parameters.json [file](nubis/cloudformation/README.md#set-up)
-0. Deploy the stack using the [aws cli tools](nubis/cloudformation/README.md#create).
+## Get the code
+Next grab the latest [release](https://github.com/Nubisproject/nubis-skel/releases), extract it and copy the *nubis* directory into your code base.
 
+## Build the project
+This step is only necessary if you have changes, otherwise you can simply configure the deployment using an ami id from the following list:
+
+|  Region   |   AMI Id     |
+|-----------|--------------|
+| us-west-2 | ami-afa9ae9f |
+| us-east-1 | ami-898a4ce2 |
+ 
+If you run *nubis-builder* it will output an ami id for you to use.
+```bash
+nubis-builder build
+```
+
+## Configure the deployment
+Create a nubis/cloudformation/parameters.json file by copying the [parameters.json-dist](nubis/cloudformation/parameters.json-dist) file and editing the parameter values. More detailed instructions can be found [here](nubis/cloudformation/README.md#set-up).
+```bash
+cp nubis/cloudformation/parameters.json-dist nubis/cloudformation/parameters.json
+vi nubis/cloudformation/parameters.json
+```
+
+## Deploy the stack
+You are now ready to deploy your stack. Be sure to replace "YOUR_NAME" with a unique stack name. You can find more detailed instructions [here](nubis/cloudformation/README.md#commands-to-work-with-cloudformation).
+```bash
+aws cloudformation create-stack --template-body file://nubis/cloudformation/main.json --parameters file://nubis/cloudformation/parameters.json --stack-name YOUR-STACK
+```
+
+## Help
+If you run into any issues, feel free to reach out to us. We hang out in #nubis-users on irc.mozilla.org.
