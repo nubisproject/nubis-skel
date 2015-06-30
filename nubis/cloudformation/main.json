@@ -17,7 +17,7 @@
       ],
       "ConstraintDescription": "Must specify prod, stage, or sandbox."
     },
-    "KeyName": {
+    "SSHKeyName": {
       "Description": "Existing ssh key to deploy to EC2 instances",
       "Type": "String"
     },
@@ -65,8 +65,8 @@
           "AmiId": {
             "Ref": "AmiId"
           },
-          "KeyName": {
-            "Ref": "KeyName"
+          "SSHKeyName": {
+            "Ref": "SSHKeyName"
           },
           "InstanceType": {
             "Fn::FindInMap": [
