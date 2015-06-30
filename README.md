@@ -5,7 +5,7 @@ This is a skeleton repository that can be used for testing or as a quick way for
 If you are new to the Nubisproject you will need to set up some [prerequisites](https://github.com/Nubisproject/nubis-docs/blob/master/PREREQUISITES.md). 
 
 ## Get the code
-Next grab the latest [release](https://github.com/Nubisproject/nubis-skel/releases), extract it and copy the *nubis* directory into your code base.
+Next grab the latest [release](https://github.com/Nubisproject/nubis-skel/releases), extract it and copy the *nubis* directory into your code base. You also need to add *nubis/cloudformation/parameters.json* to your *.gitignore* file. See the project [.gitignore](.gitignore) file for an example.
 
 ## Build the project
 This step is only necessary if you have changes, otherwise you can simply configure the deployment using an ami id from the following list:
