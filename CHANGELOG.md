@@ -1,6 +1,28 @@
 # Change Log
 
-## [v0.9.0](https://github.com/nubisproject/nubis-skel/tree/v0.9.0) (2015-06-29)
+## [v0.9.0](https://github.com/nubisproject/nubis-skel/tree/v0.9.0) (2015-06-30)
+
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v0.9.0-beta...v0.9.0)
+
+**Closed issues:**
+
+- Produce an nubis-skel release [\#6](https://github.com/Nubisproject/nubis-skel/issues/6)
+
+**Merged pull requests:**
+
+- Rename KeyName to SSHKeyName, for nubisproject/nubis-docs\#35 [\#9](https://github.com/Nubisproject/nubis-skel/pull/9) ([tinnightcap](https://github.com/tinnightcap))
+
+- Update readme to include .gitignore steps [\#8](https://github.com/Nubisproject/nubis-skel/pull/8) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v0.9.0-beta](https://github.com/nubisproject/nubis-skel/tree/v0.9.0-beta) (2015-06-30)
+
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v0.9.0-alfa...v0.9.0-beta)
+
+**Merged pull requests:**
+
+- Updates leading to release [\#7](https://github.com/Nubisproject/nubis-skel/pull/7) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v0.9.0-alfa](https://github.com/nubisproject/nubis-skel/tree/v0.9.0-alfa) (2015-06-29)
 
 **Merged pull requests:**
 
