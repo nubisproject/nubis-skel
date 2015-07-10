@@ -1,6 +1,6 @@
 # Change Log
 
-## [v0.9.0](https://github.com/nubisproject/nubis-skel/tree/v0.9.0) (2015-06-30)
+## [v0.9.0](https://github.com/nubisproject/nubis-skel/tree/v0.9.0) (2015-07-10)
 
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v0.9.0-beta...v0.9.0)
 
@@ -9,6 +9,12 @@
 - Produce an nubis-skel release [\#6](https://github.com/Nubisproject/nubis-skel/issues/6)
 
 **Merged pull requests:**
+
+- Add example of puppet file copy/provisioner [\#12](https://github.com/Nubisproject/nubis-skel/pull/12) ([tinnightcap](https://github.com/tinnightcap))
+
+- Add StacksVersion argument, helps along nubisproject/nubis-stacks\#41 [\#11](https://github.com/Nubisproject/nubis-skel/pull/11) ([gozer](https://github.com/gozer))
+
+- v0.9.0-beta1 release candidate [\#10](https://github.com/Nubisproject/nubis-skel/pull/10) ([tinnightcap](https://github.com/tinnightcap))
 
 - Rename KeyName to SSHKeyName, for nubisproject/nubis-docs\#35 [\#9](https://github.com/Nubisproject/nubis-skel/pull/9) ([tinnightcap](https://github.com/tinnightcap))
 
