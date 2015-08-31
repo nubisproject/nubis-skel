@@ -1,5 +1,13 @@
 # Change Log
 
+## [v1.0.0](https://github.com/nubisproject/nubis-skel/tree/v1.0.0) (2015-08-31)
+
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v0.9.0...v1.0.0)
+
+**Merged pull requests:**
+
+- Add StacksVersion to parameters-dist file [\#17](https://github.com/Nubisproject/nubis-skel/pull/17) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v0.9.0](https://github.com/nubisproject/nubis-skel/tree/v0.9.0) (2015-07-10)
 
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v0.9.0-beta...v0.9.0)
@@ -9,6 +17,8 @@
 - Produce an nubis-skel release [\#6](https://github.com/Nubisproject/nubis-skel/issues/6)
 
 **Merged pull requests:**
+
+- Updating changelog for v0.9.0 release [\#14](https://github.com/Nubisproject/nubis-skel/pull/14) ([tinnightcap](https://github.com/tinnightcap))
 
 - Add example of puppet file copy/provisioner [\#12](https://github.com/Nubisproject/nubis-skel/pull/12) ([tinnightcap](https://github.com/tinnightcap))
 
