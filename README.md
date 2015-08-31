@@ -12,8 +12,8 @@ This step is only necessary if you have changes, otherwise you can simply config
 
 |  Region   |   AMI Id     |
 |-----------|--------------|
-| us-west-2 | ami-bf43408f |
-| us-east-1 | ami-c35e96a8 |
+| us-west-2 | ami-91c1d1a1 |
+| us-east-1 | ami-6d77f306 |
  
 If you run *nubis-builder* it will output an ami id for you to use.
 ```bash
