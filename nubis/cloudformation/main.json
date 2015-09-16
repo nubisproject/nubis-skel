@@ -11,11 +11,12 @@
       "Default": "sandbox",
       "Type": "String",
       "AllowedValues": [
+        "admin",
         "prod",
         "stage",
         "sandbox"
       ],
-      "ConstraintDescription": "Must specify prod, stage, or sandbox."
+      "ConstraintDescription": "Must specify admin, prod, stage, or sandbox."
     },
     "SSHKeyName": {
       "Description": "Existing ssh key to deploy to EC2 instances",
@@ -37,10 +38,13 @@
   },
   "Mappings": {
     "InstanceTypeMap": {
+      "admin": {
+        "InstanceType": "m3.medium"
+      },
       "prod": {
         "InstanceType": "m3.large"
       },
-      "dev": {
+      "stage": {
         "InstanceType": "m3.medium"
       },
       "sandbox": {

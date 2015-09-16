@@ -48,28 +48,38 @@ NOTE: All examples run from the top level project directory.
 
 In these examples the stack is called *nubis-skel*. You will need to choose a unique name for your stack as their can only be one *nubis-skel* stack at a time.
 
+##### Set up
+Start by setting the profile and region, NOTE: If you have not set up any profiles set this to '*default*'. These commands assume that you have set up your profile names the same as the account names.
+```bash
+PROFILE='mozilla-sandbox'; REGION='us-east-1'; ENVIRONMENT='sandbox'
+```
+PROFILE='nubis-lab'; REGION='us-east-1'; ENVIRONMENT='stage'; STACK_NAME='nubis-skel'
+
 ### Create
 To create a new stack:
 ```bash
-aws cloudformation create-stack --template-body file://nubis/cloudformation/main.json --parameters file://nubis/cloudformation/parameters.json --stack-name nubis-skel
+aws cloudformation create-stack --profile $PROFILE --region $REGION --template-body file://nubis/cloudformation/main.json --parameters file://nubis/cloudformation/parameters.$REGION.json --stack-name $STACK_NAME
 ```
 
 ### Update
 To update and existing stack:
 ```bash
-aws cloudformation update-stack --template-body file://nubis/cloudformation/main.json --parameters file://nubis/cloudformation/parameters.json --stack-name nubis-skel 
+aws cloudformation update-stack --profile $PROFILE --region $REGION --template-body file://nubis/cloudformation/main.json --parameters file://nubis/cloudformation/parameters.$REGION.json --stack-name $STACK_NAME 
+```
+```bash
+watch -n 1 "echo 'Container Stack'; aws cloudformation describe-stacks --region $REGION --profile $PROFILE --query 'Stacks[*].[StackName, StackStatus]' --output text --stack-name $STACK_NAME; echo \"\nStack Resources\"; aws cloudformation describe-stack-resources --region $REGION --profile $PROFILE --stack-name $STACK_NAME --query 'StackResources[*].[LogicalResourceId, ResourceStatus]' --output text"
 ```
 
 ### Login
 If you have only one EC2 instance and your ssh keys are on the jumphost, you can login by:
 ```bash
-ssh -A -t ec2-user@jumphost.sandbox.us-west-2.nubis.allizom.org "ssh -A -t ubuntu@$(nubis-consul --stack-name nubis-skel --settings nubis/cloudformation/parameters.json get-ec2-instance-ip)"
+ssh -A -t ec2-user@jumphost.$ENVIRONMENT.$REGION.$PROFILE.nubis.allizom.org "ssh -A -t ubuntu@$(nubis-consul --region $REGION --profile $PROFILE --stack-name $STACK_NAME --settings nubis/cloudformation/parameters.$REGION.json get-ec2-instance-ip)"
 ```
 
 ### Delete
 To delete the stack:
 ```bash
-aws cloudformation delete-stack --stack-name nubis-skel
+aws cloudformation delete-stack --profile $PROFILE --region $REGION --stack-name $STACK_NAME
 ```
 
 ## Nested Stacks
