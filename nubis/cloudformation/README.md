@@ -66,6 +66,9 @@ To update and existing stack:
 ```bash
 aws cloudformation update-stack --profile $PROFILE --region $REGION --template-body file://nubis/cloudformation/main.json --parameters file://nubis/cloudformation/parameters.$REGION.json --stack-name $STACK_NAME 
 ```
+
+### Monitor
+To monitor the progress of the stack during create or update:
 ```bash
 watch -n 1 "echo 'Container Stack'; aws cloudformation describe-stacks --region $REGION --profile $PROFILE --query 'Stacks[*].[StackName, StackStatus]' --output text --stack-name $STACK_NAME; echo \"\nStack Resources\"; aws cloudformation describe-stack-resources --region $REGION --profile $PROFILE --stack-name $STACK_NAME --query 'StackResources[*].[LogicalResourceId, ResourceStatus]' --output text"
 ```

@@ -10,10 +10,10 @@ Next grab the latest [release](https://github.com/Nubisproject/nubis-skel/releas
 ## Build the project
 This step is only necessary if you have changes, otherwise you can simply configure the deployment using an ami id from the following list:
 
-|  Region   |   AMI Id     |
-|-----------|--------------|
-| us-west-2 | ami-91c1d1a1 |
-| us-east-1 | ami-6d77f306 |
+|  Region   |    Ubuntu    | Amazon Linux |
+|-----------|--------------|--------------|
+| us-east-1 | ami-e5a3d38f | ami-a3a1d1c9 |
+| us-west-2 | ami-63302402 | ami-6e34200f |
  
 If you run *nubis-builder* it will output an ami id for you to use.
 ```bash

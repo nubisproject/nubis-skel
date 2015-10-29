@@ -3,11 +3,12 @@
     "automatic_version_bump": "1",
     "automatic_version_verify": "1",
     "builders": [
+      "amazon-ebs-amazon-linux",
       "amazon-ebs-ubuntu"
     ],
     "project_description": "Skeleton nubis module for testing nubis-builder",
     "project_name": "nubis-skel",
-    "project_version": "0.47",
+    "project_version": "0.51",
     "source_ami_project_name": "nubis-base"
   }
 }
