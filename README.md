@@ -12,8 +12,8 @@ This step is only necessary if you have changes, otherwise you can simply config
 
 |  Region   |    Ubuntu    | Amazon Linux |
 |-----------|--------------|--------------|
-| us-east-1 | ami-e5a3d38f | ami-a3a1d1c9 |
-| us-west-2 | ami-63302402 | ami-6e34200f |
+| us-east-1 | ami-54efab3e | ami-89eda9e3 |
+| us-west-2 | ami-80ccdce1 | ami-41c9d920 |
  
 If you run *nubis-builder* it will output an ami id for you to use.
 ```bash
