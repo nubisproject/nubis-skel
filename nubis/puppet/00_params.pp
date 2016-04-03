@@ -16,3 +16,4 @@ case $::osfamily {
         $motd_update_command            = '/bin/run-parts /etc/update-motd.d/ > /var/run/motd.dynamic'
     }
 }
+
