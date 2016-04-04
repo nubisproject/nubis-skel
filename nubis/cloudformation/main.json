@@ -20,7 +20,7 @@
     },
     "SSHKeyName": {
       "Description": "Existing ssh key to deploy to EC2 instances",
-      "Type": "String"
+      "Type": "AWS::EC2::KeyPair::KeyName"
     },
     "TechnicalOwner": {
       "Description": "A valid LDAP email",
