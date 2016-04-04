@@ -28,7 +28,7 @@
     },
     "AmiId": {
       "Description": "The id of the ami for this region",
-      "Type": "String"
+      "Type": "AWS::EC2::Image::Id"
     },
     "StacksVersion": {
       "Description": "Version of the Nubis Stacks",
