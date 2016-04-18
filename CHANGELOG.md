@@ -1,20 +1,37 @@
 # Change Log
 
+## [v1.1.0](https://github.com/nubisproject/nubis-skel/tree/v1.1.0) (2016-04-18)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.0.1...v1.1.0)
+
+**Closed issues:**
+
+- Git package was upgraded [\#36](https://github.com/nubisproject/nubis-skel/issues/36)
+- Switch over to v1.0.2-dev train [\#34](https://github.com/nubisproject/nubis-skel/issues/34)
+- Tag v1.1.0 release [\#15](https://github.com/nubisproject/nubis-skel/issues/15)
+
+**Merged pull requests:**
+
+- Update builder artifacts for v1.1.0 release [\#39](https://github.com/nubisproject/nubis-skel/pull/39) ([tinnightcap](https://github.com/tinnightcap))
+- Upgrade git [\#37](https://github.com/nubisproject/nubis-skel/pull/37) ([gozer](https://github.com/gozer))
+- Switch over to v1.0.2-dev train [\#35](https://github.com/nubisproject/nubis-skel/pull/35) ([gozer](https://github.com/gozer))
+
 ## [v1.0.1](https://github.com/nubisproject/nubis-skel/tree/v1.0.1) (2015-11-20)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.0.0...v1.0.1)
 
 **Implemented enhancements:**
 
-- Git should be pinned at a specific version [\#26](https://github.com/nubisproject/nubis-skel/issues/26)
 - Fix amazon linux builds [\#25](https://github.com/nubisproject/nubis-skel/issues/25)
+- Git should be pinned at a specific version [\#26](https://github.com/nubisproject/nubis-skel/issues/26)
 - Ignore librarian-puppet files if we are using it [\#21](https://github.com/nubisproject/nubis-skel/issues/21)
 
 **Closed issues:**
 
 - Tag  release [\#27](https://github.com/nubisproject/nubis-skel/issues/27)
+- Tag v1.0.1 release [\#28](https://github.com/nubisproject/nubis-skel/issues/28)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v1.0.1 release [\#32](https://github.com/nubisproject/nubis-skel/pull/32) ([tinnightcap](https://github.com/tinnightcap))
 - Update AMIs in README for v1.0.1 release [\#31](https://github.com/nubisproject/nubis-skel/pull/31) ([tinnightcap](https://github.com/tinnightcap))
 - Update AMI IDs file for v1.0.1 release [\#30](https://github.com/nubisproject/nubis-skel/pull/30) ([tinnightcap](https://github.com/tinnightcap))
 - Update StacksVersion for v1.0.1 release [\#29](https://github.com/nubisproject/nubis-skel/pull/29) ([tinnightcap](https://github.com/tinnightcap))
