@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.2.0](https://github.com/nubisproject/nubis-skel/tree/v1.2.0) (2016-07-07)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.1.0...v1.2.0)
+
+**Merged pull requests:**
+
+- Update builder artifacts for v1.2.0 release [\#41](https://github.com/nubisproject/nubis-skel/pull/41) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v1.1.0](https://github.com/nubisproject/nubis-skel/tree/v1.1.0) (2016-04-18)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.0.1...v1.1.0)
 
@@ -8,9 +15,11 @@
 - Git package was upgraded [\#36](https://github.com/nubisproject/nubis-skel/issues/36)
 - Switch over to v1.0.2-dev train [\#34](https://github.com/nubisproject/nubis-skel/issues/34)
 - Tag v1.1.0 release [\#15](https://github.com/nubisproject/nubis-skel/issues/15)
+- Tag v1.1.0 release [\#33](https://github.com/nubisproject/nubis-skel/issues/33)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v1.1.0 release [\#40](https://github.com/nubisproject/nubis-skel/pull/40) ([tinnightcap](https://github.com/tinnightcap))
 - Update builder artifacts for v1.1.0 release [\#39](https://github.com/nubisproject/nubis-skel/pull/39) ([tinnightcap](https://github.com/tinnightcap))
 - Upgrade git [\#37](https://github.com/nubisproject/nubis-skel/pull/37) ([gozer](https://github.com/gozer))
 - Switch over to v1.0.2-dev train [\#35](https://github.com/nubisproject/nubis-skel/pull/35) ([gozer](https://github.com/gozer))
