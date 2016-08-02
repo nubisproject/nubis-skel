@@ -1,10 +1,22 @@
 # Change Log
 
-## [v1.2.1](https://github.com/nubisproject/nubis-skel/tree/v1.2.1) (2016-07-30)
-[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.2.0...v1.2.1)
+## [v1.2.2](https://github.com/nubisproject/nubis-skel/tree/v1.2.2) (2016-08-02)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.2.1...v1.2.2)
 
 **Merged pull requests:**
 
+- Update builder artifacts for v1.2.2 release [\#49](https://github.com/nubisproject/nubis-skel/pull/49) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v1.2.1](https://github.com/nubisproject/nubis-skel/tree/v1.2.1) (2016-07-30)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.2.0...v1.2.1)
+
+**Closed issues:**
+
+- Tag v1.2.1 release [\#45](https://github.com/nubisproject/nubis-skel/issues/45)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.2.1 release [\#47](https://github.com/nubisproject/nubis-skel/pull/47) ([tinnightcap](https://github.com/tinnightcap))
 - Update builder artifacts for v1.2.1 release [\#46](https://github.com/nubisproject/nubis-skel/pull/46) ([tinnightcap](https://github.com/tinnightcap))
 - Update builder artifacts for v1.3.0-dev release [\#44](https://github.com/nubisproject/nubis-skel/pull/44) ([tinnightcap](https://github.com/tinnightcap))
 
