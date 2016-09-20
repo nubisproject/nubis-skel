@@ -4,6 +4,7 @@ module "worker" {
   environment  = "${var.environment}"
   account      = "${var.account}"
   service_name = "${var.service_name}"
+  purpose      = "webserver"
   ami          = "${var.ami}"
   elb          = "${module.load_balancer.name}"
 }

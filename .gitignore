@@ -8,3 +8,4 @@ nubis/.tmp
 nubis/.librarian
 nubis/terraform/terraform.tfstate*
 nubis/terraform/.terraform
+nubis/terraform/terraform.tfvars
