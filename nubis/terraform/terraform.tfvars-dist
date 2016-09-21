@@ -1,4 +1,4 @@
 account = "<some account name>"
 region  = "<some aws region name>"
 environment = "<stage/prod>"
-service_name = "nubis-skel"
+service_name = "<username>-skel"
