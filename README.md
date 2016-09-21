@@ -5,7 +5,7 @@ This is a skeleton repository that can be used for testing or as a quick way for
 If you are new to the Nubisproject you will need to set up some [prerequisites](https://github.com/Nubisproject/nubis-docs/blob/master/PREREQUISITES.md).
 
 ## Get the code
-Next grab the latest [release](https://github.com/Nubisproject/nubis-skel/releases), extract it and copy the *nubis* directory into your code base. You also need to add *nubis/cloudformation/parameters.json* to your *.gitignore* file. See the project [.gitignore](.gitignore) file for an example.
+Next grab the latest [release](https://github.com/Nubisproject/nubis-skel/releases), extract it and copy the *nubis* directory into your code base.
 
 ## Build the project
 This step is only necessary if you have changes, otherwise you can simply configure the deployment using an ami id from the following list:
@@ -28,7 +28,7 @@ vi nubis/terraform/terraform.tfvars
 ```
 
 ## Deploy the application
-You are now ready to deploy your application. Be sure to replace "<username>" with a unique application name. You can find more detailed instructions [here](nubis/terraform/README.md#commands-to-work-with-terraform).
+You are now ready to deploy your application. Be sure to replace "\<username\>" with a unique application name. You can find more detailed instructions [here](nubis/terraform/README.md#commands-to-work-with-terraform).
 ```bash
 $> cd nubis/terraform
 $> terraform get -update=true
