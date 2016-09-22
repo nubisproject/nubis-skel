@@ -1,10 +1,31 @@
 # Change Log
 
-## [v1.2.2](https://github.com/nubisproject/nubis-skel/tree/v1.2.2) (2016-08-02)
-[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.2.1...v1.2.2)
+## [v1.2.2-training](https://github.com/nubisproject/nubis-skel/tree/v1.2.2-training) (2016-09-22)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.2.2...v1.2.2-training)
+
+**Closed issues:**
+
+- Tag v1.2.3 release [\#51](https://github.com/nubisproject/nubis-skel/issues/51)
 
 **Merged pull requests:**
 
+- Add dev builds to .gitignore [\#57](https://github.com/nubisproject/nubis-skel/pull/57) ([tinnightcap](https://github.com/tinnightcap))
+- Small edits [\#56](https://github.com/nubisproject/nubis-skel/pull/56) ([tinnightcap](https://github.com/tinnightcap))
+- update documentation for Terraform [\#55](https://github.com/nubisproject/nubis-skel/pull/55) ([gozer](https://github.com/gozer))
+- Make a better all-inclusive example skeleton [\#54](https://github.com/nubisproject/nubis-skel/pull/54) ([gozer](https://github.com/gozer))
+- Add Terraform deployment code, using nubis-terraform modules [\#53](https://github.com/nubisproject/nubis-skel/pull/53) ([gozer](https://github.com/gozer))
+- Update builder artifacts for v1.3.0-dev release [\#52](https://github.com/nubisproject/nubis-skel/pull/52) ([gozer](https://github.com/gozer))
+
+## [v1.2.2](https://github.com/nubisproject/nubis-skel/tree/v1.2.2) (2016-08-02)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.2.1...v1.2.2)
+
+**Closed issues:**
+
+- Tag v1.2.2 release [\#48](https://github.com/nubisproject/nubis-skel/issues/48)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.2.2 release [\#50](https://github.com/nubisproject/nubis-skel/pull/50) ([tinnightcap](https://github.com/tinnightcap))
 - Update builder artifacts for v1.2.2 release [\#49](https://github.com/nubisproject/nubis-skel/pull/49) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v1.2.1](https://github.com/nubisproject/nubis-skel/tree/v1.2.1) (2016-07-30)
