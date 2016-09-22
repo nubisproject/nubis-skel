@@ -9,6 +9,9 @@
 
 **Merged pull requests:**
 
+- Add 2 new deployment variables for personal SSH keys [\#61](https://github.com/nubisproject/nubis-skel/pull/61) ([gozer](https://github.com/gozer))
+- Use the project name for consul discovery [\#60](https://github.com/nubisproject/nubis-skel/pull/60) ([gozer](https://github.com/gozer))
+- Update CHANGELOG for v1.2.2-training release [\#58](https://github.com/nubisproject/nubis-skel/pull/58) ([tinnightcap](https://github.com/tinnightcap))
 - Add dev builds to .gitignore [\#57](https://github.com/nubisproject/nubis-skel/pull/57) ([tinnightcap](https://github.com/tinnightcap))
 - Small edits [\#56](https://github.com/nubisproject/nubis-skel/pull/56) ([tinnightcap](https://github.com/tinnightcap))
 - update documentation for Terraform [\#55](https://github.com/nubisproject/nubis-skel/pull/55) ([gozer](https://github.com/gozer))
@@ -108,8 +111,6 @@
 - Add StacksVersion to parameters-dist file [\#17](https://github.com/nubisproject/nubis-skel/pull/17) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v0.9.0](https://github.com/nubisproject/nubis-skel/tree/v0.9.0) (2015-07-10)
-[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v0.9.0-beta...v0.9.0)
-
 **Closed issues:**
 
 - Produce an nubis-skel release [\#6](https://github.com/nubisproject/nubis-skel/issues/6)
@@ -122,17 +123,7 @@
 - v0.9.0-beta1 release candidate [\#10](https://github.com/nubisproject/nubis-skel/pull/10) ([tinnightcap](https://github.com/tinnightcap))
 - Rename KeyName to SSHKeyName, for nubisproject/nubis-docs\#35 [\#9](https://github.com/nubisproject/nubis-skel/pull/9) ([tinnightcap](https://github.com/tinnightcap))
 - Update readme to include .gitignore steps [\#8](https://github.com/nubisproject/nubis-skel/pull/8) ([tinnightcap](https://github.com/tinnightcap))
-
-## [v0.9.0-beta](https://github.com/nubisproject/nubis-skel/tree/v0.9.0-beta) (2015-06-30)
-[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v0.9.0-alfa...v0.9.0-beta)
-
-**Merged pull requests:**
-
 - Updates leading to release [\#7](https://github.com/nubisproject/nubis-skel/pull/7) ([tinnightcap](https://github.com/tinnightcap))
-
-## [v0.9.0-alfa](https://github.com/nubisproject/nubis-skel/tree/v0.9.0-alfa) (2015-06-29)
-**Merged pull requests:**
-
 - Fix typo in cloudformation readme [\#5](https://github.com/nubisproject/nubis-skel/pull/5) ([tinnightcap](https://github.com/tinnightcap))
 - Renaming from nubis-blank to nubis-skel [\#4](https://github.com/nubisproject/nubis-skel/pull/4) ([tinnightcap](https://github.com/tinnightcap))
 - Change dev to stage [\#3](https://github.com/nubisproject/nubis-skel/pull/3) ([tinnightcap](https://github.com/tinnightcap))
