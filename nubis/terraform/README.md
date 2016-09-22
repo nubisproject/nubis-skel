@@ -27,6 +27,14 @@ The service_name is the name of this service. For Mozilla deployments this shoul
 ### ami
 You will collect this as output from nubis-builder. Once the build is complete nubis-builder will display the ami id which you will need to manually copy into the terraform.tfvars file. You will need to do this after every successful build.
 
+### ssh_key_file
+
+Path to the public ssh key file you want authorized to ssh into the launched instances
+
+### ssh_key_name
+
+The account unique name you want to give to that ssh key
+
 ## Commands to work with Terraform
 NOTE: All examples run from the nubis/terraform directory.
 
