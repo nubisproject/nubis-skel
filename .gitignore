@@ -6,6 +6,7 @@ nubis/librarian-puppet
 nubis/Puppetfile.lock
 nubis/.tmp
 nubis/.librarian
+nubis/builder/artifacts/*-dev*
 nubis/terraform/terraform.tfstate*
 nubis/terraform/.terraform
 nubis/terraform/terraform.tfvars
