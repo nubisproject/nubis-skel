@@ -3,7 +3,7 @@ $port = 80
 # Install our service discovery handy helper
 include nubis_discovery
 nubis::discovery::service { "$project_name":
-  tags => [ 'nginx' ],
+  tags => [ 'nginx', '%%NUBIS_PROJECT%%' ],
   port => $port,
   check => "/usr/bin/curl -I http://localhost:$port",
   interval => "30s",
