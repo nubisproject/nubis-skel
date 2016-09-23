@@ -5,7 +5,7 @@ include nubis_discovery
 nubis::discovery::service { "$project_name":
   tags => [ 'nginx', '%%PROJECT%%' ],
   port => $port,
-  check => "/usr/bin/curl -I http://localhost:$port",
+  check => "/usr/bin/curl -If http://localhost:$port",
   interval => "30s",
 }
 
