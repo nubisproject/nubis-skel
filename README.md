@@ -1,4 +1,9 @@
 ﻿# nubis-skel
+
+[![Version](https://img.shields.io/github/release/nubisproject/nubis-skel.svg?maxAge=2592000)](https://github.com/nubisproject/nubis-skel/releases)
+[![Build Status](https://img.shields.io/travis/nubisproject/nubis-skel/master.svg?maxAge=2592000)](https://travis-ci.org/nubisproject/nubis-skel)
+[![Issues](https://img.shields.io/github/issues/nubisproject/nubis-skel.svg?maxAge=2592000)](https://github.com/nubisproject/nubis-skel/issues)
+
 This is a skeleton repository that can be used for testing or as a quick way for you to incorporate nubis into your own project.
 
 ## Prerequisites
