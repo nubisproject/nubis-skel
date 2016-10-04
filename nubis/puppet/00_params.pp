@@ -15,5 +15,8 @@ case $::osfamily {
         $package_manager_update_command = '/usr/bin/apt-get update'
         $motd_update_command            = '/bin/run-parts /etc/update-motd.d/ > /var/run/motd.dynamic'
     }
+    default: {
+        notice("MOTD not supported on ${::osfamily}")
+    }
 }
 
