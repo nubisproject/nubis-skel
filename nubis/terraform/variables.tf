@@ -21,3 +21,11 @@ variable "ssh_key_file" {
 variable "ssh_key_name" {
   default = ""
 }
+
+variable "nubis_sudo_groups" {
+  default = "nubis_global_admins"
+}
+
+variable "nubis_user_groups" {
+  default = ""
+}
