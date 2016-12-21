@@ -1,5 +1,21 @@
 # Change Log
 
+## [v1.3.0](https://github.com/nubisproject/nubis-skel/tree/v1.3.0) (2016-12-20)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.2.2-training...v1.3.0)
+
+**Closed issues:**
+
+- Add nubis\_sudo\_groups and nubis\_user\_groups variables to skel [\#67](https://github.com/nubisproject/nubis-skel/issues/67)
+
+**Merged pull requests:**
+
+- Update builder artifacts for v1.3.0 release [\#71](https://github.com/nubisproject/nubis-skel/pull/71) ([tinnightcap](https://github.com/tinnightcap))
+- update to nubis-travis v0.1.3 [\#69](https://github.com/nubisproject/nubis-skel/pull/69) ([gozer](https://github.com/gozer))
+- Expose ldap groups [\#68](https://github.com/nubisproject/nubis-skel/pull/68) ([limed](https://github.com/limed))
+- Enable nubis-travis v0.1.0 [\#66](https://github.com/nubisproject/nubis-skel/pull/66) ([gozer](https://github.com/gozer))
+- fail health check if not HTTP 200 [\#65](https://github.com/nubisproject/nubis-skel/pull/65) ([gozer](https://github.com/gozer))
+- Remove old artifact file [\#63](https://github.com/nubisproject/nubis-skel/pull/63) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v1.2.2-training](https://github.com/nubisproject/nubis-skel/tree/v1.2.2-training) (2016-09-22)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.2.2...v1.2.2-training)
 
@@ -9,6 +25,7 @@
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v1.2.2-training release [\#62](https://github.com/nubisproject/nubis-skel/pull/62) ([tinnightcap](https://github.com/tinnightcap))
 - Add 2 new deployment variables for personal SSH keys [\#61](https://github.com/nubisproject/nubis-skel/pull/61) ([gozer](https://github.com/gozer))
 - Use the project name for consul discovery [\#60](https://github.com/nubisproject/nubis-skel/pull/60) ([gozer](https://github.com/gozer))
 - Update CHANGELOG for v1.2.2-training release [\#58](https://github.com/nubisproject/nubis-skel/pull/58) ([tinnightcap](https://github.com/tinnightcap))
