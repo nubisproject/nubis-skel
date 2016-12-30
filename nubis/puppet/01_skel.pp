@@ -18,12 +18,6 @@ package { 'makepasswd_package':
   require => Exec['package_manager_update'],
 }
 
-package { 'git_package':
-  ensure  => $git_package_version,
-  name    => $git_package_name,
-  require => Exec['package_manager_update'],
-}
-
 file { '/etc/update-motd.d/55-nubis-welcome':
   source => 'puppet:///nubis/files/nubis-welcome', #lint:ignore:puppet_url_without_modules
   owner  => 'root',
