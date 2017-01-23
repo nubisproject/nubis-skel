@@ -1,6 +1,13 @@
 # Change Log
 
 ## [v1.4.0](https://github.com/nubisproject/nubis-skel/tree/v1.4.0) (2017-01-23)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.4.0...v1.4.0)
+
+**Merged pull requests:**
+
+- Update builder artifacts for v1.4.0 release [\#79](https://github.com/nubisproject/nubis-skel/pull/79) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v1.4.0](https://github.com/nubisproject/nubis-skel/tree/v1.4.0) (2017-01-23)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.3.0...v1.4.0)
 
 **Merged pull requests:**
