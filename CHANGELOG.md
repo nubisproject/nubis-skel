@@ -1,14 +1,25 @@
 # Change Log
 
-## [v1.3.0](https://github.com/nubisproject/nubis-skel/tree/v1.3.0) (2016-12-20)
+## [v1.4.0](https://github.com/nubisproject/nubis-skel/tree/v1.4.0) (2017-01-23)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.3.0...v1.4.0)
+
+**Merged pull requests:**
+
+- Update builder artifacts for v1.4.0 release [\#77](https://github.com/nubisproject/nubis-skel/pull/77) ([tinnightcap](https://github.com/tinnightcap))
+- Update builder artifacts for v1.4.0-dev release [\#75](https://github.com/nubisproject/nubis-skel/pull/75) ([tinnightcap](https://github.com/tinnightcap))
+- Remove package git from examples [\#74](https://github.com/nubisproject/nubis-skel/pull/74) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v1.3.0](https://github.com/nubisproject/nubis-skel/tree/v1.3.0) (2016-12-21)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.2.2-training...v1.3.0)
 
 **Closed issues:**
 
 - Add nubis\_sudo\_groups and nubis\_user\_groups variables to skel [\#67](https://github.com/nubisproject/nubis-skel/issues/67)
+- Tag v1.3.0 release [\#70](https://github.com/nubisproject/nubis-skel/issues/70)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v1.3.0 release [\#72](https://github.com/nubisproject/nubis-skel/pull/72) ([tinnightcap](https://github.com/tinnightcap))
 - Update builder artifacts for v1.3.0 release [\#71](https://github.com/nubisproject/nubis-skel/pull/71) ([tinnightcap](https://github.com/tinnightcap))
 - update to nubis-travis v0.1.3 [\#69](https://github.com/nubisproject/nubis-skel/pull/69) ([gozer](https://github.com/gozer))
 - Expose ldap groups [\#68](https://github.com/nubisproject/nubis-skel/pull/68) ([limed](https://github.com/limed))
