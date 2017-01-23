@@ -5,6 +5,7 @@
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v1.4.0 release [\#78](https://github.com/nubisproject/nubis-skel/pull/78) ([tinnightcap](https://github.com/tinnightcap))
 - Update builder artifacts for v1.4.0 release [\#77](https://github.com/nubisproject/nubis-skel/pull/77) ([tinnightcap](https://github.com/tinnightcap))
 - Update builder artifacts for v1.4.0-dev release [\#75](https://github.com/nubisproject/nubis-skel/pull/75) ([tinnightcap](https://github.com/tinnightcap))
 - Remove package git from examples [\#74](https://github.com/nubisproject/nubis-skel/pull/74) ([tinnightcap](https://github.com/tinnightcap))
