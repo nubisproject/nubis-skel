@@ -1,5 +1,28 @@
 # Change Log
 
+## [v1.4.2](https://github.com/nubisproject/nubis-skel/tree/v1.4.2) (2017-05-03)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.4.1...v1.4.2)
+
+**Closed issues:**
+
+- Tag v1.4.2 release [\#94](https://github.com/nubisproject/nubis-skel/issues/94)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.4.2 release \[skip ci\] [\#95](https://github.com/nubisproject/nubis-skel/pull/95) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v1.4.1](https://github.com/nubisproject/nubis-skel/tree/v1.4.1) (2017-04-11)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.4.0...v1.4.1)
+
+**Closed issues:**
+
+- Tag v1.4.1 release [\#91](https://github.com/nubisproject/nubis-skel/issues/91)
+
+**Merged pull requests:**
+
+- Merge v1.4.1 release into develop. \[skip ci\] [\#93](https://github.com/nubisproject/nubis-skel/pull/93) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.4.1 release \[skip ci\] [\#92](https://github.com/nubisproject/nubis-skel/pull/92) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v1.4.0](https://github.com/nubisproject/nubis-skel/tree/v1.4.0) (2017-03-23)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.3.0...v1.4.0)
 
@@ -25,7 +48,6 @@
 - Update builder artifacts for v1.4.0 release [\#77](https://github.com/nubisproject/nubis-skel/pull/77) ([tinnightcap](https://github.com/tinnightcap))
 - Update builder artifacts for v1.4.0-dev release [\#75](https://github.com/nubisproject/nubis-skel/pull/75) ([tinnightcap](https://github.com/tinnightcap))
 - Remove package git from examples [\#74](https://github.com/nubisproject/nubis-skel/pull/74) ([tinnightcap](https://github.com/tinnightcap))
-- Update CHANGELOG for v1.3.0 release [\#72](https://github.com/nubisproject/nubis-skel/pull/72) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v1.3.0](https://github.com/nubisproject/nubis-skel/tree/v1.3.0) (2016-12-21)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.2.2-training...v1.3.0)
@@ -37,6 +59,7 @@
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v1.3.0 release [\#72](https://github.com/nubisproject/nubis-skel/pull/72) ([tinnightcap](https://github.com/tinnightcap))
 - Update builder artifacts for v1.3.0 release [\#71](https://github.com/nubisproject/nubis-skel/pull/71) ([tinnightcap](https://github.com/tinnightcap))
 - update to nubis-travis v0.1.3 [\#69](https://github.com/nubisproject/nubis-skel/pull/69) ([gozer](https://github.com/gozer))
 - Expose ldap groups [\#68](https://github.com/nubisproject/nubis-skel/pull/68) ([limed](https://github.com/limed))
