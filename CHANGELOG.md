@@ -1,5 +1,16 @@
 # Change Log
 
+## [v1.4.2](https://github.com/nubisproject/nubis-skel/tree/v1.4.2) (2017-05-03)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.4.1...v1.4.2)
+
+**Closed issues:**
+
+- Tag v1.4.2 release [\#94](https://github.com/nubisproject/nubis-skel/issues/94)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.4.2 release \[skip ci\] [\#95](https://github.com/nubisproject/nubis-skel/pull/95) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v1.4.1](https://github.com/nubisproject/nubis-skel/tree/v1.4.1) (2017-04-11)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.4.0...v1.4.1)
 
