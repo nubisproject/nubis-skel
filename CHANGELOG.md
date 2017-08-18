@@ -3,8 +3,14 @@
 ## [v1.5.0](https://github.com/nubisproject/nubis-skel/tree/v1.5.0) (2017-06-24)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.4.2...v1.5.0)
 
+**Closed issues:**
+
+- Tag v1.5.0 release [\#102](https://github.com/nubisproject/nubis-skel/issues/102)
+
 **Merged pull requests:**
 
+- Merge v1.5.0 release into develop. \[skip ci\] [\#104](https://github.com/nubisproject/nubis-skel/pull/104) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.5.0 release \[skip ci\] [\#103](https://github.com/nubisproject/nubis-skel/pull/103) ([tinnightcap](https://github.com/tinnightcap))
 - Update terraform modules to current release [\#101](https://github.com/nubisproject/nubis-skel/pull/101) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v1.4.2](https://github.com/nubisproject/nubis-skel/tree/v1.4.2) (2017-05-04)
