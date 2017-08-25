@@ -1,14 +1,30 @@
 # Change Log
 
-## [v1.4.2](https://github.com/nubisproject/nubis-skel/tree/v1.4.2) (2017-05-03)
+## [v1.5.0](https://github.com/nubisproject/nubis-skel/tree/v1.5.0) (2017-06-24)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.4.2...v1.5.0)
+
+**Closed issues:**
+
+- Tag v1.5.0 release [\#102](https://github.com/nubisproject/nubis-skel/issues/102)
+
+**Merged pull requests:**
+
+- Merge v1.5.0 release into develop. \[skip ci\] [\#104](https://github.com/nubisproject/nubis-skel/pull/104) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.5.0 release \[skip ci\] [\#103](https://github.com/nubisproject/nubis-skel/pull/103) ([tinnightcap](https://github.com/tinnightcap))
+- Update terraform modules to current release [\#101](https://github.com/nubisproject/nubis-skel/pull/101) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v1.4.2](https://github.com/nubisproject/nubis-skel/tree/v1.4.2) (2017-05-04)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.4.1...v1.4.2)
 
 **Closed issues:**
 
+- Tag v1.4.2 release [\#97](https://github.com/nubisproject/nubis-skel/issues/97)
 - Tag v1.4.2 release [\#94](https://github.com/nubisproject/nubis-skel/issues/94)
 
 **Merged pull requests:**
 
+- Merge v1.4.2 release into develop. \[skip ci\] [\#100](https://github.com/nubisproject/nubis-skel/pull/100) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.4.2 release \[skip ci\] [\#99](https://github.com/nubisproject/nubis-skel/pull/99) ([tinnightcap](https://github.com/tinnightcap))
 - Update CHANGELOG for v1.4.2 release \[skip ci\] [\#95](https://github.com/nubisproject/nubis-skel/pull/95) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v1.4.1](https://github.com/nubisproject/nubis-skel/tree/v1.4.1) (2017-04-11)
