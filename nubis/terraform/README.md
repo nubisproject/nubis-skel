@@ -1,5 +1,3 @@
-﻿
-
 # Working with Terraform
 
 ## Set Up
@@ -8,7 +6,7 @@ Before you deploy with Terraform you need to set up your terraform.tfvars file.
 There is an example copy called terraform.tfvars-dist that you can copy and
 edit. It should look something like this:
 
-```
+```bash
 
 account = "nubis-lab"
 region  = "us-west-2"
@@ -63,9 +61,9 @@ choose a unique service name for your deployment as their can only be one
 
 Get and update dependent terraform modules
 
-```
+```bash
 
-$> terraform get -update=true
+erraform get -update=true
 
 ```
 
@@ -73,9 +71,9 @@ $> terraform get -update=true
 
 Preview the proposed change
 
-```
+```bash
 
-$> terraform Plan
+terraform Plan
 
 ```
 
@@ -83,9 +81,9 @@ $> terraform Plan
 
 Apply the proposed change
 
-```
+```bash
 
-$> terraform apply
+terraform apply
 
 ```
 
@@ -97,7 +95,7 @@ login by:
 ```bash
 
 ssh -A -t ec2-user@jumphost.<env>.<region>.<account-name>.nubis.allizom.org \
-"ssh -A -t ubuntu@<service_name>.service.consul
+"ssh -A -t ubuntu@<service_name>.service.consul"
 
 ```
 
@@ -106,7 +104,7 @@ ssh -A -t ec2-user@jumphost.<env>.<region>.<account-name>.nubis.allizom.org \
 Terraform creates a route53 hosted zone and a cname record. And the resulting
 url will be part of the outputs:
 
-```
+```bash
 
 Outputs:
 
@@ -118,7 +116,7 @@ Outputs:
 
 To delete the deployment:
 
-```
+```bash
 
 $> terraform destroy
 
