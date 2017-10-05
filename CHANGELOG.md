@@ -1,5 +1,30 @@
 # Change Log
 
+## [v2.0.0](https://github.com/nubisproject/nubis-skel/tree/v2.0.0) (2017-10-05)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.5.1...v2.0.0)
+
+**Merged pull requests:**
+
+- Update nubis-travis to v1.4.2 [\#114](https://github.com/nubisproject/nubis-skel/pull/114) ([tinnightcap](https://github.com/tinnightcap))
+- Update nubis-travis to v1.4.0 [\#113](https://github.com/nubisproject/nubis-skel/pull/113) ([tinnightcap](https://github.com/tinnightcap))
+- Update travis token [\#112](https://github.com/nubisproject/nubis-skel/pull/112) ([tinnightcap](https://github.com/tinnightcap))
+- Changing slack token [\#111](https://github.com/nubisproject/nubis-skel/pull/111) ([tinnightcap](https://github.com/tinnightcap))
+- Update README.md with new doscke style commands [\#110](https://github.com/nubisproject/nubis-skel/pull/110) ([tinnightcap](https://github.com/tinnightcap))
+- Update travis token to use Mozilla slack [\#109](https://github.com/nubisproject/nubis-skel/pull/109) ([tinnightcap](https://github.com/tinnightcap))
+- Updates for terraform 1.10 and Nubis v1.5.1 [\#108](https://github.com/nubisproject/nubis-skel/pull/108) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v1.5.1](https://github.com/nubisproject/nubis-skel/tree/v1.5.1) (2017-08-18)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.5.0...v1.5.1)
+
+**Closed issues:**
+
+- Tag v1.5.1 release [\#105](https://github.com/nubisproject/nubis-skel/issues/105)
+
+**Merged pull requests:**
+
+- Merge v1.5.1 release into develop. \[skip ci\] [\#107](https://github.com/nubisproject/nubis-skel/pull/107) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.5.1 release \[skip ci\] [\#106](https://github.com/nubisproject/nubis-skel/pull/106) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v1.5.0](https://github.com/nubisproject/nubis-skel/tree/v1.5.0) (2017-06-24)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.4.2...v1.5.0)
 
