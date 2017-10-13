@@ -3,8 +3,14 @@
 ## [v2.0.0](https://github.com/nubisproject/nubis-skel/tree/v2.0.0) (2017-10-05)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v1.5.1...v2.0.0)
 
+**Closed issues:**
+
+- Tag v2.0.0 release [\#115](https://github.com/nubisproject/nubis-skel/issues/115)
+
 **Merged pull requests:**
 
+- Merge v2.0.0 release into develop. \[skip ci\] [\#117](https://github.com/nubisproject/nubis-skel/pull/117) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v2.0.0 release \[skip ci\] [\#116](https://github.com/nubisproject/nubis-skel/pull/116) ([tinnightcap](https://github.com/tinnightcap))
 - Update nubis-travis to v1.4.2 [\#114](https://github.com/nubisproject/nubis-skel/pull/114) ([tinnightcap](https://github.com/tinnightcap))
 - Update nubis-travis to v1.4.0 [\#113](https://github.com/nubisproject/nubis-skel/pull/113) ([tinnightcap](https://github.com/tinnightcap))
 - Update travis token [\#112](https://github.com/nubisproject/nubis-skel/pull/112) ([tinnightcap](https://github.com/tinnightcap))
