@@ -1,5 +1,6 @@
 account = "<some account name>"
 region  = "<some aws region name>"
+arena = "<typically core>"
 environment = "<stage/prod>"
 service_name = "<username>-skel"
 
