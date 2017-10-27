@@ -10,8 +10,9 @@ edit. It should look something like this:
 
 account = "nubis-lab"
 region  = "us-west-2"
+arena = "core"
 environment = "stage"
-service_name = "skel"
+service_name = "skel-<login>"
 ami="ami-XXXX"
 
 ```
@@ -23,6 +24,11 @@ This is the name for the AWS account you are intending to deploy to.
 ### region
 
 The AWS region you wish to deploy to, like us-east-1 or us-west-2
+
+### arena
+
+The arena you want to deploy into, typically this is `core`. If in doubt
+just set it to `core`.
 
 ### environment
 
@@ -48,76 +54,3 @@ instances
 ### ssh_key_name
 
 The account unique name you want to give to that ssh key
-
-## Commands to work with Terraform
-
-NOTE: All examples run from the nubis/terraform directory.
-
-In these examples the service name is called *nubis-skel*. You will need to
-choose a unique service name for your deployment as their can only be one
-*nubis-skel* deployment at a time in one account.
-
-### Get
-
-Get and update dependent terraform modules
-
-```bash
-
-erraform get -update=true
-
-```
-
-### Plan
-
-Preview the proposed change
-
-```bash
-
-terraform Plan
-
-```
-
-### Apply
-
-Apply the proposed change
-
-```bash
-
-terraform apply
-
-```
-
-### Login
-
-If you have only one EC2 instance and your ssh keys are on the jumphost, you can
-login by:
-
-```bash
-
-ssh -A -t ec2-user@jumphost.<env>.<region>.<account-name>.nubis.allizom.org \
-"ssh -A -t ubuntu@<service_name>.service.consul"
-
-```
-
-### Visit site
-
-Terraform creates a route53 hosted zone and a cname record. And the resulting
-url will be part of the outputs:
-
-```bash
-
-Outputs:
-
-  address = https://www.<service_name>-<env>.<env>.<region>.<account_name>.nubis.allizom.org/
-
-```
-
-### Delete
-
-To delete the deployment:
-
-```bash
-
-$> terraform destroy
-
-```
