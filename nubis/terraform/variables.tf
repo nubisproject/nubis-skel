@@ -4,6 +4,10 @@ variable "region" {
   default = "us-west-2"
 }
 
+variable "arena" {
+  default = "core"
+}
+
 variable "environment" {
   default = "stage"
 }
