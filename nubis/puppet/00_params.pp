@@ -1,6 +1,6 @@
 case $::osfamily {
     'RedHat': {
-        $makepasswd_package_version     = '5.45-*'
+        $makepasswd_package_version     = 'latest'
         $makepasswd_package_name        = 'expect'
         $package_manager_update_command = '/usr/bin/yum check-update'
         $motd_update_command            = '/usr/bin/true'
