@@ -1,14 +1,30 @@
 # Change Log
 
+## [v2.0.4](https://github.com/nubisproject/nubis-skel/tree/v2.0.4) (2017-12-08)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.0.3...v2.0.4)
+
+**Closed issues:**
+
+- Tag v2.0.4 release [\#138](https://github.com/nubisproject/nubis-skel/issues/138)
+
+**Merged pull requests:**
+
+- deregister [\#137](https://github.com/nubisproject/nubis-skel/pull/137) ([gozer](https://github.com/gozer))
+- avoid wildcards on YUM [\#136](https://github.com/nubisproject/nubis-skel/pull/136) ([gozer](https://github.com/gozer))
+- \[Centennial\] [\#134](https://github.com/nubisproject/nubis-skel/pull/134) ([gozer](https://github.com/gozer))
+
 ## [v2.0.3](https://github.com/nubisproject/nubis-skel/tree/v2.0.3) (2017-11-02)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.0.2...v2.0.3)
 
 **Closed issues:**
 
 - Update docs to reflect new container style [\#118](https://github.com/nubisproject/nubis-skel/issues/118)
+- Tag v2.0.3 release [\#130](https://github.com/nubisproject/nubis-skel/issues/130)
 
 **Merged pull requests:**
 
+- Merge v2.0.3 release into develop. \[skip ci\] [\#132](https://github.com/nubisproject/nubis-skel/pull/132) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v2.0.3 release \[skip ci\] [\#131](https://github.com/nubisproject/nubis-skel/pull/131) ([tinnightcap](https://github.com/tinnightcap))
 - Update documentation to new command style [\#129](https://github.com/nubisproject/nubis-skel/pull/129) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v2.0.2](https://github.com/nubisproject/nubis-skel/tree/v2.0.2) (2017-10-24)

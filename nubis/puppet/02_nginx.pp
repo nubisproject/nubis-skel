@@ -12,7 +12,7 @@ nubis::discovery::service { $project_name:
 # Install a simple webserver
 class { 'nginx': }
 
-nginx::resource::vhost { 'default':
+nginx::resource::server { 'default':
   listen_port => $port,
   www_root    => '/var/www/html',
 }
