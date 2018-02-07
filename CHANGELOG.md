@@ -1,5 +1,18 @@
 # Change Log
 
+## [v2.1.0](https://github.com/nubisproject/nubis-skel/tree/v2.1.0) (2018-02-03)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.0.4...v2.1.0)
+
+**Closed issues:**
+
+- Tag v2.1.0 release [\#139](https://github.com/nubisproject/nubis-skel/issues/139)
+- Update docs to reflect new container style [\#118](https://github.com/nubisproject/nubis-skel/issues/118)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v2.1.0 release \[skip ci\] [\#141](https://github.com/nubisproject/nubis-skel/pull/141) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.1.0 release \[skip ci\] [\#140](https://github.com/nubisproject/nubis-skel/pull/140) ([nubis-automation](https://github.com/nubis-automation))
+
 ## [v2.0.4](https://github.com/nubisproject/nubis-skel/tree/v2.0.4) (2017-12-08)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.0.3...v2.0.4)
 
@@ -18,7 +31,6 @@
 
 **Closed issues:**
 
-- Update docs to reflect new container style [\#118](https://github.com/nubisproject/nubis-skel/issues/118)
 - Tag v2.0.3 release [\#130](https://github.com/nubisproject/nubis-skel/issues/130)
 
 **Merged pull requests:**
