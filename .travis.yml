@@ -9,6 +9,8 @@ before_install:
   - docker pull nubisproject/nubis-travis:v2.0.0
 
 script:
+  - echo $(pwd)
+  - ls -al
   - docker run -v $(pwd):/nubis/work nubisproject/nubis-travis:v2.0.0
 
 notifications:
