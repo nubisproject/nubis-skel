@@ -9,8 +9,6 @@ before_install:
   - docker pull nubisproject/nubis-travis:master
 
 script:
-  - echo $(pwd)
-  - ls -al
   - docker run --mount type=bind,source="$(pwd)",target=/nubis/files nubisproject/nubis-travis:master
 
 notifications:
