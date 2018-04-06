@@ -23,8 +23,8 @@ file { [ '/var/www', '/var/www/html' ]:
   owner  => root,
   group  => root,
   mode   => '0755',
-}->
-file { '/var/www/html/index.html':
+}
+-> file { '/var/www/html/index.html':
     ensure => file,
     owner  => root,
     group  => root,
