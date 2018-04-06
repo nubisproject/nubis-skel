@@ -1,15 +1,28 @@
 # Change Log
 
-## [v2.1.0](https://github.com/nubisproject/nubis-skel/tree/v2.1.0) (2018-02-03)
+## [v2.2.0](https://github.com/nubisproject/nubis-skel/tree/v2.2.0) (2018-04-06)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.1.0...v2.2.0)
+
+**Merged pull requests:**
+
+- Small lint check fixups [\#148](https://github.com/nubisproject/nubis-skel/pull/148) ([tinnightcap](https://github.com/tinnightcap))
+- Remove old travis submodule [\#147](https://github.com/nubisproject/nubis-skel/pull/147) ([tinnightcap](https://github.com/tinnightcap))
+- Remove debug from build [\#146](https://github.com/nubisproject/nubis-skel/pull/146) ([tinnightcap](https://github.com/tinnightcap))
+- Migrate to using the nubis-travis Docker image [\#145](https://github.com/nubisproject/nubis-skel/pull/145) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v2.1.0](https://github.com/nubisproject/nubis-skel/tree/v2.1.0) (2018-02-07)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.0.4...v2.1.0)
 
 **Closed issues:**
 
+- Tag v2.1.0 release [\#142](https://github.com/nubisproject/nubis-skel/issues/142)
 - Tag v2.1.0 release [\#139](https://github.com/nubisproject/nubis-skel/issues/139)
 - Update docs to reflect new container style [\#118](https://github.com/nubisproject/nubis-skel/issues/118)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v2.1.0 release \[skip ci\] [\#144](https://github.com/nubisproject/nubis-skel/pull/144) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.1.0 release \[skip ci\] [\#143](https://github.com/nubisproject/nubis-skel/pull/143) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.1.0 release \[skip ci\] [\#141](https://github.com/nubisproject/nubis-skel/pull/141) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.1.0 release \[skip ci\] [\#140](https://github.com/nubisproject/nubis-skel/pull/140) ([nubis-automation](https://github.com/nubis-automation))
 
