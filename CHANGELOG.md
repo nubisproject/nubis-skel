@@ -1,10 +1,23 @@
 # Change Log
 
-## [v2.2.0](https://github.com/nubisproject/nubis-skel/tree/v2.2.0) (2018-04-06)
-[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.1.0...v2.2.0)
+## [v2.3.0](https://github.com/nubisproject/nubis-skel/tree/v2.3.0) (2018-07-17)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.2.0...v2.3.0)
 
 **Merged pull requests:**
 
+- bump TF module versions [\#152](https://github.com/nubisproject/nubis-skel/pull/152) ([gozer](https://github.com/gozer))
+
+## [v2.2.0](https://github.com/nubisproject/nubis-skel/tree/v2.2.0) (2018-04-06)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.1.0...v2.2.0)
+
+**Closed issues:**
+
+- Tag v2.2.0 release [\#149](https://github.com/nubisproject/nubis-skel/issues/149)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v2.2.0 release \[skip ci\] [\#151](https://github.com/nubisproject/nubis-skel/pull/151) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.2.0 release \[skip ci\] [\#150](https://github.com/nubisproject/nubis-skel/pull/150) ([nubis-automation](https://github.com/nubis-automation))
 - Small lint check fixups [\#148](https://github.com/nubisproject/nubis-skel/pull/148) ([tinnightcap](https://github.com/tinnightcap))
 - Remove old travis submodule [\#147](https://github.com/nubisproject/nubis-skel/pull/147) ([tinnightcap](https://github.com/tinnightcap))
 - Remove debug from build [\#146](https://github.com/nubisproject/nubis-skel/pull/146) ([tinnightcap](https://github.com/tinnightcap))
