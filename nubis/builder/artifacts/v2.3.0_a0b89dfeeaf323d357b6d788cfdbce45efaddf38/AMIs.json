@@ -1,0 +1,21 @@
+{
+  "builds": [
+    {
+      "name": "amazon-ebs-ubuntu",
+      "builder_type": "amazon-ebs",
+      "build_time": 1531842890,
+      "files": null,
+      "artifact_id": "ap-northeast-1:ami-ea472907,ap-northeast-2:ami-06d16668,ap-southeast-1:ami-349ae0de,ap-southeast-2:ami-e47eda86,eu-central-1:ami-65b6b08e,eu-west-1:ami-51223dbb,sa-east-1:ami-f211379e,us-east-1:ami-a282bbdd,us-west-1:ami-e0d93b83,us-west-2:ami-18eeb360",
+      "packer_run_uuid": "397046a7-2d0f-c785-f189-8a849313dbfe"
+    },
+    {
+      "name": "amazon-ebs-centos",
+      "builder_type": "amazon-ebs",
+      "build_time": 1531843251,
+      "files": null,
+      "artifact_id": "ap-northeast-1:ami-d349273e,ap-northeast-2:ami-4cd16622,ap-southeast-1:ami-bea5df54,ap-southeast-2:ami-bf7edadd,eu-central-1:ami-00b7b1eb,eu-west-1:ami-a8d8c742,sa-east-1:ami-7e113712,us-east-1:ami-fd81b882,us-west-1:ami-5122c032,us-west-2:ami-53e8b52b",
+      "packer_run_uuid": "397046a7-2d0f-c785-f189-8a849313dbfe"
+    }
+  ],
+  "last_run_uuid": "397046a7-2d0f-c785-f189-8a849313dbfe"
+}
