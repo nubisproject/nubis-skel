@@ -1,14 +1,17 @@
 # Change Log
 
-## [v2.3.0](https://github.com/nubisproject/nubis-skel/tree/v2.3.0) (2018-07-17)
+## [v2.3.0](https://github.com/nubisproject/nubis-skel/tree/v2.3.0) (2018-07-18)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.2.0...v2.3.0)
 
 **Closed issues:**
 
+- Tag v2.3.0 release [\#156](https://github.com/nubisproject/nubis-skel/issues/156)
 - Tag v2.3.0 release [\#153](https://github.com/nubisproject/nubis-skel/issues/153)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#158](https://github.com/nubisproject/nubis-skel/pull/158) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#157](https://github.com/nubisproject/nubis-skel/pull/157) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#155](https://github.com/nubisproject/nubis-skel/pull/155) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#154](https://github.com/nubisproject/nubis-skel/pull/154) ([nubis-automation](https://github.com/nubis-automation))
 - bump TF module versions [\#152](https://github.com/nubisproject/nubis-skel/pull/152) ([gozer](https://github.com/gozer))
