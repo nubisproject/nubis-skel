@@ -1,17 +1,27 @@
 # Change Log
 
-## [v2.3.0](https://github.com/nubisproject/nubis-skel/tree/v2.3.0) (2018-07-18)
+## [v2.3.0](https://github.com/nubisproject/nubis-skel/tree/v2.3.0) (2018-07-24)
+[Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.3.0...v2.3.0)
+
+**Merged pull requests:**
+
+- Add aws module to skel [\#165](https://github.com/nubisproject/nubis-skel/pull/165) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v2.3.0](https://github.com/nubisproject/nubis-skel/tree/v2.3.0) (2018-07-20)
 [Full Changelog](https://github.com/nubisproject/nubis-skel/compare/v2.2.0...v2.3.0)
 
 **Closed issues:**
 
 - Tag v2.2.0 release [\#149](https://github.com/nubisproject/nubis-skel/issues/149)
+- Tag v2.3.0 release [\#162](https://github.com/nubisproject/nubis-skel/issues/162)
 - Tag v2.3.0 release [\#159](https://github.com/nubisproject/nubis-skel/issues/159)
 - Tag v2.3.0 release [\#156](https://github.com/nubisproject/nubis-skel/issues/156)
 - Tag v2.3.0 release [\#153](https://github.com/nubisproject/nubis-skel/issues/153)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#164](https://github.com/nubisproject/nubis-skel/pull/164) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#163](https://github.com/nubisproject/nubis-skel/pull/163) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#161](https://github.com/nubisproject/nubis-skel/pull/161) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#160](https://github.com/nubisproject/nubis-skel/pull/160) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#158](https://github.com/nubisproject/nubis-skel/pull/158) ([nubis-automation](https://github.com/nubis-automation))
